@@ -1,0 +1,103 @@
+.adver-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: #026077;
+    color: white;
+    font-family: "Poppins";
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    border: 2px solid #2da95c;
+  }
+  
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  
+    justify-content: flex-start;
+  }
+  
+  .content-box p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+  }
+  
+  .content-box h1 {
+    color: #2da95c;
+    font-size: 24px;
+    margin: 10px;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
+    font-weight: 700;
+  }
+  .announcment-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* margin: 10px; */
+    margin: 20px;
+  }
+  .deal-box {
+    background-color: #d9d9d9;
+    padding: 10px;
+    color: #363636;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .deal-box p {
+    font-size: 14px;
+    margin: 5px;
+    font-weight: 700;
+    font-family: "Roboto";
+  }
+  
+  .deal-box h1 {
+    font-size: 30px;
+    font-weight: 900;
+    width: 80%;
+    text-align: center;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  }
+  
+  .button-box {
+    background-color: #2da95c;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  .button-box a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .button-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box img {
+    width: 180px;
+  }

@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.adver-caro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories-home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.categories-home h1{
+    color: #424444;
+}
+
+.cate-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left:40px;
+    gap: 40px;
+}

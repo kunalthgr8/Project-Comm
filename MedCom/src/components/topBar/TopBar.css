@@ -1,0 +1,22 @@
+.topbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.searchbox-topbar {
+  width: 70%;
+  margin-left: 20px;
+}
+
+.user-topbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 40px;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 0;
+  margin-right: 0;
+}

@@ -1,0 +1,12 @@
+.App{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 100vh;
+    background-color: #C2D1D6;
+}
+.content-right{
+    padding: 20px;
+    width: 80%;
+}

@@ -3,6 +3,14 @@ import "./Product.css";
 import ProductCard from "./ProductCard/ProductCard";
 
 const Product = () => {
+
+  const handleClearAll = () => {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = false;
+    });
+
+  }
   return (
     <div className="product">
       <div className="left-product">
@@ -45,6 +53,7 @@ const Product = () => {
               <label htmlFor="discountCheckbox">Child</label>
             </div>
           </div>
+          <button onClick={handleClearAll}>Clear All</button>
         </div>
       </div>
     </div>

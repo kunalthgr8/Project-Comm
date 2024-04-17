@@ -6,6 +6,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
   margin-right: 20px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 512px) {

@@ -1,0 +1,29 @@
+.product {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 30px;
+  gap: 20px;
+}
+
+.heading-product {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.left-product{
+    width: 75%;
+}
+.right-product{
+    width: 25%;
+}
+.heading-product h1 {
+  color: #424444;
+}
+
+.product-cards{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

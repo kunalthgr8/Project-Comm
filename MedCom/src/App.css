@@ -9,4 +9,8 @@
 .content-right{
     padding: 20px;
     width: 80%;
+    overflow-y: auto;
+}
+.side-bar{
+    flex-shrink: 0;
 }
